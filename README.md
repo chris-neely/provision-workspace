@@ -1,5 +1,5 @@
 # provision-workspace
-Provision AWS Workspace based on Okta application events using AWS Lambda. I have a few work arounds in here I would like to clean up but this is an initial attempt that works. I welcome any and all collaborators.
+Provision AWS Workspace based on Okta application events using AWS Lambda. I have a few work arounds in here I would like to clean up but this is an initial attempt that works for batches up to 20 users. I welcome any and all collaborators.
 
 ## Summary
 How this currently works
