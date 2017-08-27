@@ -36,9 +36,6 @@ exports.handler = (event, context, callback) => {
             console.log("JSON Object: " + jsonObj);
             for (var i = 0; i < jsonObj.length; i++) {
                 setTimeout(function (i) {
-                    // var timestamp = jsonObj[i].published;
-                    // var action = jsonObj[i].action.objectType;
-                    // var displayName = jsonObj[i].targets[1].displayName;
                     var userEmail = jsonObj[i];
                     var userName = userEmail.substr(0, userEmail.indexOf('@'));
 
